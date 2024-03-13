@@ -1,0 +1,61 @@
+.Sidebar-light {
+  background-color: #d0e4ec;
+  position: fixed;
+  top: 0;
+  bottom: 0; 
+  width: 15%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.Sidebar-dark {
+  background-color: rgb(2, 25, 34);
+  position: fixed;
+  top: 0;
+  bottom: 0; 
+  width: 15%;
+  padding: 0;
+  box-shadow: 0 0 10px rgba(200, 197, 197, 0.3);
+}
+
+.arrowIcon {
+  width: 3rem;
+  height: 3.7rem;
+  position: absolute;
+  right: 10px;
+  padding-top: 10px;
+}
+
+.tabs {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+}
+
+.tab {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(11, 116, 220);
+  /* margin-top: 1px; */
+  /* margin-left: 13px; */
+  padding: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: box-shadow 0.3s ease;
+  
+}
+
+.tab:hover {
+  box-shadow: 0 0 5px rgba(14, 204, 172, 0.5); /* Shadow effect on hover */
+}
+
+.bottom-tabs {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}

@@ -1,0 +1,8 @@
+.offcanvas_userEditForm{
+    z-index: 2400 ;
+}
+
+.saveButton {
+    margin: 3px 0px 15px 20px;
+    width: 90px;
+}

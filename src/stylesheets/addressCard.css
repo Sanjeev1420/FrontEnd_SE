@@ -1,0 +1,24 @@
+
+
+.addressCard {
+    width: 460px;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 4px rgb(206, 205, 205);
+}
+
+.addressCardEditBtn{
+   background-color: rgb(29, 230, 190) !important;
+   margin-right: 10px;
+}
+
+.addressCardBtns-light {
+  display: "flex";
+  justify-content: end;
+  margin-top: 2px;
+}
+
+.addressCardBtns-dark {
+  display: "flex";
+  justify-content: end;
+  margin-top: 2px;
+}
