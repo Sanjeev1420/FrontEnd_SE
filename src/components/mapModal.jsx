@@ -53,7 +53,7 @@ const MapModal = (props) => {
               scrollWheelZoom={false}
             >
               <CustomMapEvents setSelectedLocation={setSelectedLocation} />
-              <TileLayer url="https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=NXlnUKalINRDC5XJ2nS8" />
+              <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
               <CustomMarker selectedLocation={selectedLocation} />
             </MapContainer>
           )}

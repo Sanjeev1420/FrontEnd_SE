@@ -4,7 +4,7 @@ import { useSpring, animated } from "react-spring";
 
 const Stores = ({ sidebarToggle }) => {
   const { marginLeft } = useSpring({
-    marginLeft: sidebarToggle ? "15.4%" : "5%",
+    marginLeft: sidebarToggle ? "15%" : "4.65%",
     config: { duration: 250 }
   });
 
